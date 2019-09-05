@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Facebook POM Test Suite]">
+  <test thread-count="5" name="Facebook POM Test(failed)">
+    <classes>
+      <class name="com.fb.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyUserNavigationLabelclickedTest"/>
+          <include name="verifyProfileLinkWorkingFineTest"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.fb.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Facebook POM Test(failed) -->
+</suite> <!-- Failed suite [Facebook POM Test Suite] -->
